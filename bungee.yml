@@ -1,0 +1,6 @@
+name: OmniModTools
+main: net.omniblock.modtools.ModTools
+load: SETUP
+version: 2.0A.universal
+author: Omniblock Developers Team
+website: www.omniblock.net

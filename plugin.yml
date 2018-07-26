@@ -1,0 +1,40 @@
+name: ModTools
+main: net.omniblock.modtools.ModTools
+softdepend: [OmniNetwork, OmniPackets]
+version: 2.0A.universal
+author: Omniblock Developers Team
+website: www.omniblock.net
+commands:
+   ban:
+      aliases: [ban, banear]
+      description: Permite realizar un baneo a un jugador.
+   kick:
+      aliases: [kick, kickear]
+      description: Permite expulsar a un jugador.
+   fly:
+      aliases: [fly, volar]
+      description: Permite activar/desactivar el modo vuelo.
+   invsee:
+      aliases: [invsee, verinv, verinventario]
+      description: Permite ver el inventario en tiempo real de un jugador.
+   mute:
+      aliases: [mute, silenciar]
+      description: Permite silenciar un jugador.
+   unmute:
+      aliases: [unmute, dessilenciar]
+      description: Permite remover el silencio a un jugador.
+   tp:
+      aliases: [tp]
+      description: Permite teletransportarse a un jugador.
+   vanish:
+      aliases: [vanish, v]
+      description: Permite realizar ponerte en modo vanish.
+   freeze:
+      aliases: [freeze, ss]
+      description: Permite realizar un congelamiento a un jugador.
+   sensor:
+      aliases: [sensor]
+      description: Permite activar el modo sensor.
+   heal:
+      aliases: [heal, health]
+      description: Permite curarte y alimentarte.
