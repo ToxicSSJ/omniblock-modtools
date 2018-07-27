@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Omniblock-ModTools:jar">
+    <output-path>$PROJECT_DIR$/../CompiledJars</output-path>
+    <root id="archive" name="Omniblock-ModTools.jar">
+      <element id="module-output" name="Omniblock-ModTools" />
+    </root>
+  </artifact>
+</component>
