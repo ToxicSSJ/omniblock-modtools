@@ -16,24 +16,6 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="SPIGOT_1_12_2.jar">
-        <CLASSES>
-          <root url="jar://C:/Gitlab/SPIGOT_1_12_2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="BungeeCord.jar">
-        <CLASSES>
-          <root url="jar://C:/Gitlab/BungeeCord.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../CompiledJars/Omniblock-Network.jar!/" />
@@ -55,6 +37,26 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../CompiledJars/Omniblock-Survival.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Libs/Spigot_1_12_2_R1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../Libs/Spigot_1_12_2_R1.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Libs/BungeeCord.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
