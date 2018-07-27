@@ -1,6 +1,5 @@
 package net.omniblock.modtools.commands;
 
-import net.omniblock.survival.systems.commands.Back;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -52,7 +51,6 @@ public class TpCommand implements CommandExecutor {
 					
 				}
 
-				Back.addPlayerLocation(player);
 				((Player) sender).teleport(player);
 				sender.sendMessage(TextUtil.format("&aTe has teletransportado a &7" + player.getName() + " &acorrectamente."));
 				return true;
